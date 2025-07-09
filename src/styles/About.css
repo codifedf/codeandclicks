@@ -1,0 +1,155 @@
+/* Mission & Vision Section */
+.mission-vision {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: var(--card-bg);
+  backdrop-filter: var(--glass-blur);
+  border-radius: var(--border-radius);
+  margin: 4rem 0;
+}
+
+.mission-vision h2 {
+  font-size: 2.5rem;
+  color: var(--neon);
+  margin-bottom: 2rem;
+  text-shadow: 0 0 8px var(--neon);
+}
+
+.mission-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.mission-card {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  backdrop-filter: var(--glass-blur);
+  transition: transform 0.3s ease;
+}
+
+.mission-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  backdrop-filter: var(--glass-blur);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Process Section */
+.process-section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.process-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.process-card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  backdrop-filter: var(--glass-blur);
+}
+
+/* Awards Section */
+.awards-section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.award-card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  backdrop-filter: var(--glass-blur);
+  transition: transform 0.3s ease;
+}
+
+.award-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Case Studies Section */
+.case-studies {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.study-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.study-card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  backdrop-filter: var(--glass-blur);
+  transition: transform 0.3s ease;
+}
+
+.study-card:hover {
+  transform: translateY(-5px);
+}
+
+/* News Section */
+.news-section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.news-card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  backdrop-filter: var(--glass-blur);
+  transition: transform 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+}
